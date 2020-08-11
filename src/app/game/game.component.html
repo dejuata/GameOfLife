@@ -1,0 +1,15 @@
+<div class="container game">
+    <h1 class="game__title">Game of Life</h1>
+    <canvas #canvas width="720" height="400"></canvas>
+
+    <div fxLayout="row" fxLayoutAlign="center center" class="game__controls">
+        <span class="game__controls-span">{{index}} de: </span>
+        <mat-form-field class="game__controls-left">
+            <mat-label>Steps: </mat-label>
+            <input matInput [(ngModel)]="steps" type="number" placeholder="Steps" min="1">
+        </mat-form-field>
+
+        <button class="game__controls-left" mat-raised-button color="primary" (click)="newGame()">New</button>
+        <button class="game__controls-left" mat-raised-button color="primary" (click)="run()">Run</button>
+    </div>
+</div>

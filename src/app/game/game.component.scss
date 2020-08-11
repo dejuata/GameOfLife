@@ -1,0 +1,22 @@
+.game {
+  text-align: center;
+
+  &__title {
+    padding: 20px 0 10px 0;
+    font-size: 3rem !important;
+  }
+
+  canvas {
+    border: solid 1px #000;
+    background-color: #fff;
+  }
+
+  &__controls {
+    &-span {
+      margin-bottom: 6px;
+    }
+    &-left {
+      margin-left: 1rem !important;
+    }
+  }
+}
