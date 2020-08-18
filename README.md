@@ -15,4 +15,7 @@ npm install
 
 # Run application in development
 npm start
+
+# Open your browser in
+http://localhost:4200/
 ```
