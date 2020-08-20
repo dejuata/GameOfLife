@@ -14,7 +14,7 @@ cd GameOfLife
 npm install
 
 # Run application in development
-npm start
+ng serve
 
 # Open your browser in
 http://localhost:4200/
